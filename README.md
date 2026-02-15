@@ -43,17 +43,5 @@ python DeviceCreator.py
 
 You can also Import .adev to edit existing device files.
 
-## .adev File Format
-
-{
-  "format_version": "1.0",
-  "device": { "id": "...", "name": "...", "category": "..." },
-  "visual": { "width": 100, "height": 100, "label": "...", "color": "#..." },
-  "pins": [{ "id": "...", "label": "...", "x": 0, "y": 0, "type": "digital", "side": "left" }],
-  "emulation": { "type": "active", "state_vars": {}, "rules": [], "properties": {} },
-  "display": { "type": "oled_ssd1306", "region": { "x": 10, "y": 10, "w": 80, "h": 40 } }
-}
-
-
-# Note: This is a Beta relece and some fetures may not work as expected. 
+**Note: This is a Beta relece and some fetures may not work as expected.**
 **License**: GPLv3
